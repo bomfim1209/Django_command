@@ -8,4 +8,4 @@
 <p><b>python manage.py migrate --run-syncdb</b> --> Se você adicionou apps antigas (sem arquivos de migrations) e quer forçar a criação das tabelas, útil quando você está integrando código legado.</p>
 
 
-<p><b>ind caminho-pasta -type f ! -name '__init__.py' -delete</b> --> Exclui todos os arquivos com exceção daquele indicado.</p>
+<p><b>find caminho-pasta -type f ! -name '__init__.py' -delete</b> --> Exclui todos os arquivos com exceção daquele indicado.</p>

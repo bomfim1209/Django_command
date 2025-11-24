@@ -9,3 +9,14 @@
 
 
 <p><b>find caminho-pasta -type f ! -name 'come-arquvo' -delete</b> --> Exclui todos os arquivos com exceção daquele indicado.</p>
+
+# -----------
+<h2>Criando uma nova DJANGO_SECRET_KEY</h2>
+<p>Execute os seguintes comandos no seu shell.</p>
+<ol>
+  <li>python</li>
+  <li>from django.core.management.utils import get_random_secret_key</li>
+  <li>print(get_random_secret_key())</li>
+</ol>
+<p>O codigo exibido é a nova chave gerada pelo seu Django. Copie e salve para não esquecer.</p>
+<p>Para sair do terminal do python basta executar o comando CTRL + Z(o "z" tem que estar em caixa alta).</p>

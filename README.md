@@ -20,3 +20,7 @@
 </ol>
 <p>O codigo exibido é a nova chave gerada pelo seu Django. Copie e salve para não esquecer.</p>
 <p>Para sair do terminal do python basta executar o comando CTRL + Z(o "z" tem que estar em caixa alta).</p>
+
+# -----------
+<h2>Criando Super Usuário</h2>
+<p><b>python manage.py createsuperuser</b></p>

@@ -24,3 +24,12 @@
 # -----------
 <h2>Criando Super Usuário</h2>
 <p><b>python manage.py createsuperuser</b></p>
+
+# -----------
+<h2>Coletando arquivos Estaticos</h2>
+<ol>
+  <li>No settings.py, defina o item STATIC_ROOT.</li>
+  <li>STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')</li>
+</ol>
+<p>Depois no seu terminal execute o seguinte comando:</p>
+<p><b>python manage.py collectstatic</b></p>

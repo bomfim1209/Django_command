@@ -2,6 +2,14 @@
 <p>Lista dos comandos mais utilizados e comandos úteis no dia a dia.</p>
 
 # -----------
+# Recomendação Gitignore:
+<p><b>Exemplo:</p></b>
+<p>IGNORA ESTA PASTA EM TODOS OS NÍVEIS</p>
+<p>**/migrations/*</p>
+<p>EXCEÇÃO - MANTEM O __init__.py PARA EXECUTAR O MAKEMIGRATIONS</p>
+<p>!**/migrations/__init__.py</p>
+
+# -----------
 <h2>Comandos Para auxiliar na hora de migrar as tabelas</h2>
 <p><b>python manage.py showmigrations</b> --> Lista todas as migrações que já foram feitas e as pendentes no banco de dados.</p>
 <p><b>python manage.py migrate --fake zero</b> --> Se o banco está totalmente desalinhado e você quer zerar tudo e recriar as tabelas do zero, marca todas as migrations como não aplicadas, sem apagar tabelas.</p>

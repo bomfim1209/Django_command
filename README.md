@@ -1,6 +1,9 @@
 # Django_command
 <p>Lista dos comandos mais utilizados e comandos úteis no dia a dia.</p>
 
+<p><b>django-admin startproject nome_projeto</b> ---> Criar um novo projeto django.</p>
+<p><b>python manage.py startapp nome</b> ---> Cria nova aplicação.</p>
+
 # -----------
 # Recomendação Gitignore:
 <p><b>Exemplo:</p></b>
